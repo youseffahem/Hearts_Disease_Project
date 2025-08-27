@@ -1,0 +1,56 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine Learning Libraries
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+
+# Deep Learning (Optional)
+tensorflow>=2.9.0
+
+# Visualization and Plotting
+plotly>=5.10.0
+
+# Model Persistence
+joblib>=1.1.0
+
+# Statistical Analysis
+scipy>=1.9.0
+
+# Streamlit for Web Application
+streamlit>=1.12.0
+
+# Progress Bars
+tqdm>=4.64.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+notebook>=6.4.0
+ipywidgets>=7.7.0
+
+# Hyperparameter Tuning
+optuna>=3.0.0
+
+# Data Validation
+great-expectations>=0.15.0
+
+# Environment Management
+python-dotenv>=0.20.0
+
+# Utility Libraries
+requests>=2.28.0
+urllib3>=1.26.0
+
+# For Ngrok Deployment (Bonus)
+pyngrok>=5.1.0
+
+# Development Tools
+black>=22.0.0
+flake8>=5.0.0
+pytest>=7.1.0
+
+# Documentation
+sphinx>=5.0.0
