@@ -30,24 +30,6 @@
 
 ---
 
-## 🎬 Screenshots & Demo
-
-<!-- Add your actual screenshots/GIFs here -->
-<div align="center">
-
-### 🖥️ **Interactive Web Application**
-![Demo Screenshot](https://via.placeholder.com/800x400/FF4B4B/FFFFFF?text=HeartGuard+AI+Demo)
-
-### 📱 **Mobile-Responsive Design**
-<img src="https://via.placeholder.com/300x600/3776AB/FFFFFF?text=Mobile+View" alt="Mobile Demo" width="300">
-
-### 📊 **Advanced Analytics Dashboard**
-![Analytics Dashboard](https://via.placeholder.com/800x400/28A745/FFFFFF?text=ML+Analytics+Dashboard)
-
-</div>
-
----
-
 ## ⚡ Quick Start
 
 Get HeartGuard AI running locally in under 5 minutes!
@@ -384,3 +366,4 @@ If HeartGuard AI helped you or inspired your work, please give us a star! ⭐
 ---
 
 *HeartGuard AI - Empowering early detection, saving lives through artificial intelligence* 💖
+
