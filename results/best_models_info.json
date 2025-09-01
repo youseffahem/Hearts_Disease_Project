@@ -1,0 +1,45 @@
+{
+  "Original": {
+    "model_name": "Logistic_Regression",
+    "f1_score": 0.5964912280701754,
+    "filename": "best_model_original.pkl",
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ]
+  },
+  "Top_Features": {
+    "model_name": "Logistic_Regression",
+    "f1_score": 0.5964912280701754,
+    "filename": "best_model_top_features.pkl",
+    "features": [
+      "ca",
+      "chol",
+      "cp",
+      "sex",
+      "age",
+      "restecg",
+      "slope",
+      "oldpeak"
+    ]
+  },
+  "RFECV": {
+    "model_name": "SVM",
+    "f1_score": 0.6037735849056604,
+    "filename": "best_model_rfecv.pkl",
+    "features": [
+      "oldpeak"
+    ]
+  }
+}

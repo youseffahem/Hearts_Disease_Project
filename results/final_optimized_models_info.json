@@ -1,0 +1,54 @@
+{
+  "Original": {
+    "model_name": "LogisticRegression",
+    "best_params": {
+      "C": 0.1,
+      "max_iter": 1000,
+      "penalty": "l1",
+      "solver": "liblinear"
+    },
+    "cv_f1_score": 0.42647019955068055,
+    "test_accuracy": 0.6229508196721312,
+    "test_f1_score": 0.6101694915254238,
+    "test_auc": 0.6908602150537635,
+    "filename": "final_optimized_model_original.pkl",
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ]
+  },
+  "Top_Features": {
+    "model_name": "SVM",
+    "best_params": {
+      "C": 10,
+      "gamma": "scale",
+      "kernel": "poly"
+    },
+    "cv_f1_score": 0.466110250498887,
+    "test_accuracy": 0.6065573770491803,
+    "test_f1_score": 0.6,
+    "test_auc": 0.3698924731182796,
+    "filename": "final_optimized_model_top_features.pkl",
+    "features": [
+      "ca",
+      "chol",
+      "cp",
+      "sex",
+      "age",
+      "restecg",
+      "slope",
+      "oldpeak"
+    ]
+  }
+}

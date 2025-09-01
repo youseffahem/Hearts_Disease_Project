@@ -1,0 +1,44 @@
+{
+  "top_combined_features": [
+    "ca",
+    "chol",
+    "cp",
+    "sex",
+    "age",
+    "restecg",
+    "slope",
+    "oldpeak"
+  ],
+  "rfecv_selected_features": [
+    "oldpeak"
+  ],
+  "consensus_features": [
+    "ca",
+    "chol",
+    "cp",
+    "oldpeak",
+    "thalach",
+    "trestbps",
+    "age",
+    "sex",
+    "fbs",
+    "slope",
+    "thal",
+    "exang"
+  ],
+  "all_features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}

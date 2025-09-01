@@ -1,0 +1,8 @@
+{
+    "optimal_k": {
+        "Original": 2,
+        "Top_Features": 10
+    },
+    "kmeans_results": {
+        "Original": {
+            "labels": 

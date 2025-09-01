@@ -1,0 +1,78 @@
+{
+  "Original": {
+    "LogisticRegression": {
+      "best_params": {
+        "C": 0.1,
+        "max_iter": 1000,
+        "penalty": "l1",
+        "solver": "liblinear"
+      },
+      "best_cv_score": 0.42647019955068055
+    },
+    "DecisionTree": {
+      "best_params": {
+        "criterion": "entropy",
+        "max_depth": 7,
+        "min_samples_leaf": 1,
+        "min_samples_split": 5
+      },
+      "best_cv_score": 0.5016800053354675
+    },
+    "RandomForest": {
+      "best_params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 50
+      },
+      "best_cv_score": 0.4656029563974404
+    },
+    "SVM": {
+      "best_params": {
+        "C": 0.1,
+        "gamma": 1,
+        "kernel": "poly"
+      },
+      "best_cv_score": 0.5291373163511474
+    }
+  },
+  "Top_Features": {
+    "LogisticRegression": {
+      "best_params": {
+        "C": 0.01,
+        "max_iter": 1000,
+        "penalty": "l2",
+        "solver": "liblinear"
+      },
+      "best_cv_score": 0.4931671968893602
+    },
+    "DecisionTree": {
+      "best_params": {
+        "criterion": "entropy",
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "min_samples_split": 10
+      },
+      "best_cv_score": 0.46443876101165105
+    },
+    "RandomForest": {
+      "best_params": {
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 50
+      },
+      "best_cv_score": 0.460949489707663
+    },
+    "SVM": {
+      "best_params": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "poly"
+      },
+      "best_cv_score": 0.466110250498887
+    }
+  }
+}
